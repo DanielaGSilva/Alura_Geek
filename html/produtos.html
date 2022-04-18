@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+        <link rel="stylesheet" href="../assets/css/home.css"/>
+        <link rel="stylesheet" href="../assets/css/home_login.css"/>
+        <link rel="stylesheet" href="../assets/css/produto.css"/>
+        <link rel="stylesheet" href="../assets/css/produtos_home.css"/>
+        <link rel="stylesheet" href="../assets/css/produtos.css"/>
+        <link rel="stylesheet" href="../assets/css/reset.css"/>
+        <link rel="stylesheet" href="../assets/css/responsivo_home.css"/>
+        <link rel="stylesheet" href="../assets/css/responsivo_produtos.css"/>
+
+        <link rel="shortcut icon" href="../assets/img/header/logo-store.svg" alt="favicon" type="image/x-icon">
+
+        <title>Alura Geek</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__topo">
+                <img src="../assets/img/header/Logo.png" alt="logomarca" class="header__topo__logo" />
+
+                <div class="header__topo__busca">
+                    <form class="header__topo__busca__form">
+                        <input type="search" id="query" name="q" placeholder="O que deseja encontrar?" class="header__topo__busca__form__input" />
+                        <button type="submit" class="header__topo__busca__form__botao">
+                            <object data="../assets/img/header/lupa.svg"></object>
+                        </button>
+                    </form>
+                </div>
+                <a href="../html/home_login.html" class="header__topo__login-btn">Menu administrador</a>
+            </div>
+        </header>
+        <main class="corpo">
+            <section class="corpo__adicionar-produto">
+                <div class="corpo__adicionar-produto__container">
+                    <h1 class="corpo__adicionar-produto__container__titulo">Adicionar novo produto</h1>
+                    <form action="" method="post" class="corpo__adicionar-produto__container__form">
+
+                        <fieldset class="corpo__adicionar-produto__container__upload-imagem">
+                            <div class="corpo__adicionar-produto__container__upload-imagem__upload-area">
+                                <object data="../assets/img/icones/no-picture.svg"></object>
+                                <p>Arraste para adicionar uma imagem para o produto</p>
+                            </div>
+                            <span class="corpo__adicionar-produto__container__upload-imagem__span">Ou</span>
+                            <label for="file" class="corpo__adicionar-produto__container__upload-imagem__upload-button"><input type="file" id="file" name="filename"/></label>
+                        </fieldset>
+
+                        <label for="nome-produto" class="corpo__adicionar-produto__container__produto">
+                        <input type="text" name="nome-produto" id="nome-produto" placeholder="Nome do Produto" class="corpo__adicionar-produto__container__produto__input" /></label>
+                        <label for="preco-produto" class="corpo__adicionar-produto__container__produto">
+                        <input type="number" min="0.00" max="100000.00" step="0.01" name="preco-produto" id="preco-produto" placeholder="Preço do Produto" class="corpo__adicionar-produto__container__produto__input" /></label>
+                        <label for="descricao-produto" class="corpo__adicionar-produto__container__produto">
+                        <input type="text" name="descricao-produto" id="descricao-produto" placeholder="Descrição do Produto" class="corpo__adicionar-produto__container__produto__input_button" /></label>
+                        <input type="submit" value="Adicionar produto" class="blue__button__produtos" />
+
+                    </form>
+                </div>
+            </section>
+            <section class="corpo__contato">
+                <div class="corpo__contato__container">
+                    <div class="corpo__contato__container__logo">
+                        <img src="../assets/img/header/logo.png" alt="logomarca" />
+                    </div>
+                    <div class="corpo__contato__container__nav">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Quem somos nós</a></li>
+                                <li><a href="#">Política de privacidade</a></li>
+                                <li><a href="#">Programa de fidelidade</a></li>
+                                <li><a href="#">Nossas lojas</a></li>
+                                <li><a href="#">Quero ser franqueado</a></li>
+                                <li><a href="#">Anuncie aqui</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="corpo__contato__container__form">
+
+                        <h1 class="corpo__contato__container__form__titulo">Fale Conosco</h1>
+                        <form action="" method="post" class="corpo__contato__container__form">
+                            <label for="nome">Nome<input type="text" name="nome" id="nome" /></label>
+                            <label for="mensagem">
+                                <textarea name="mensagem" id="mensagem" class="corpo__contato__container__form__textarea" placeholder="Escreva sua mensagem"></textarea>
+                            </label>
+                            <button type="submit" class="corpo__contato__container__form__button">Enviar mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </section> 
+        </main>
+        <footer class="footer">Desenvolvido por Daniela Gomes da Silva &copy;2022</footer>
+    </body>
+</html>
+
+
