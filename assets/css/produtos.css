@@ -1,0 +1,133 @@
+.corpo__adicionar-produto {
+    background-color: #e5e5e5;
+    padding: 4rem 0;
+}
+
+  .corpo__adicionar-produto__container {
+    margin: auto;
+    width: 50%;
+}
+
+.corpo__adicionar-produto__container__titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+  
+.corpo__adicionar-produto__container__form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.corpo__adicionar-produto__container__upload-imagem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.corpo__adicionar-produto__container__upload-imagem__upload-area {
+    border: 1px dashed #c8c8c8;
+    border-radius: 5px;;
+    padding: 2rem;
+    background-color: #fff;
+    display: inline-block;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo__adicionar-produto__container__upload-imagem__upload-area object {
+    max-width: 32px;
+    margin-bottom: 1rem;
+}
+
+.corpo__adicionar-produto__container__upload-imagem__upload-area p {
+    color: #6b6b6b;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+.corpo__adicionar-produto__container__upload-imagem__span {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.corpo__adicionar-produto__container__produto {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: auto;
+    padding-top: 1%;
+}
+
+
+
+.corpo__adicionar-produto__container__produto__input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 18px 12px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;  
+}
+
+.corpo__adicionar-produto__container__produto__input_button{
+    height: 100px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 18px 12px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400; 
+}
+
+.blue__button__produtos {
+    color: #fff;
+    padding: 16px;
+    background-color: #2a7ae4;
+    width: 700px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+.corpo__adicionar-produto__container__upload-imagem__upload-button {
+    display: inline-block;
+    width: 240px;
+    padding: 1rem;
+    text-align: center;
+    color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    border-radius: 5px;
+}
+
+.corpo__adicionar-produto__container__upload-imagem__upload-button::after {
+    content: "Procure no seu computador";
+}
+
+.corpo__adicionar-produto__container__upload-imagem__upload-button input {
+    display: none;
+}
+
+

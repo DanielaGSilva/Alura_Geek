@@ -1,0 +1,13 @@
+@media screen and (max-width: 850px) {
+    .corpo__adicionar-produto__container__upload-imagem__upload-button::after {
+      content: "Procure no seu tablet";
+    }
+
+}
+  
+@media screen and (max-width: 425px) {
+    .corpo__adicionar-produto__container__upload-imagem__upload-button::after {
+      content: "Procure no seu celular";
+    }
+}
+  

@@ -1,0 +1,43 @@
+@media screen and (max-width: 850px) {
+
+    .corpo__produto__container {
+      width: 90%;
+      padding-top: 2rem;
+    }
+  
+    .corpo__produto__container__info__titulo {
+      font-size: 26px;
+    }
+  
+    .corpo__produto__container__info__descricao {
+      font-size: 14px;
+    }
+}
+  
+  @media screen and (max-width: 425px) {
+      
+    .corpo__produto__container {
+      width: 100%;
+      padding-top: 0;
+      display: grid;
+      gap: 0;
+      grid-template-areas:
+        "imagem"
+        "info";
+      grid-template-columns: none;
+      align-items: center;
+    }
+
+    .corpo__produto__container__imagem {
+      background-size: cover;
+      width: 100vw;
+      height: 26vh;
+      margin-bottom: 1rem;
+    }
+
+    .corpo__produto__container__info {
+      width: 90%;
+      margin: auto;
+    }
+}
+  

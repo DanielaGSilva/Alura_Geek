@@ -1,0 +1,286 @@
+    /* HEADER */
+.header__topo {
+    align-content: center;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: "logo busca login";
+    justify-content: space-between;
+    margin: auto;
+    padding: 2rem 0;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.header__topo__logo {
+    grid-area: logo;
+    width: 176px;
+    display: block;
+    align-self: center;
+    max-width: 176px;
+}
+  
+.header__topo__busca {
+    background-color: #f5f5f5;
+    padding: 12px 20px;
+    width: 60%;
+    border-radius: 20px;
+    grid-area: busca;
+}
+  
+.header__topo__busca__form {
+    display: flex;
+    
+
+}
+
+.header__topo__busca__form__input {
+    background: #f5f5f5;
+    border: none;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    padding: auto;
+    
+}
+
+.header__topo__busca__form__input:focus {
+    outline: none;
+}
+  
+.header__topo__busca__form__botao {
+    border: none;
+    background-color: #f5f5f5;
+    width: 10%;
+    
+}
+  
+.header__topo__login-btn {
+    display: inline-block;
+    padding: 1rem 3.5rem;
+    border: 1px solid #2A7AE4;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #2a7ae4;
+    font-family: "Raleway", sans-serif;
+    grid-area: login;
+    max-width: 100px;
+}
+
+/* VITRINE */
+
+.header__vitrine {
+  background: url("../../assets/img/header/banner.png") center / cover no-repeat;
+  width: 100vw;
+  height: 40vh;
+}
+
+.header__vitrine__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 85%;
+  margin: auto;
+  height: 100%;
+}
+
+.header__vitrine__container__titulo {
+  width: 85%;
+  font-size: 52px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.header__vitrine__container__texto {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  margin: 1.3rem 0 1rem;
+}
+
+.header__vitrine__container__link {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 16px;
+  background-color: #2a7ae4;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+/* CORPO*/
+
+.corpo__lista {
+    margin: 4rem auto;
+    width: 85%;
+}
+
+.corpo__lista__topo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.corpo__lista__topo__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.corpo__lista__topo__link {
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #2a7ae4;
+    align-self: center;
+}
+
+.corpo__lista__conteudo {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: calc(10% / 5);
+    margin: auto;
+}
+  
+.corpo__lista__conteudo__item {
+    width: 15%;
+}
+
+.corpo__lista__conteudo__item__imagem {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.corpo__lista__conteudo__item__titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+
+}
+.corpo__lista__conteudo__item__preco {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.corpo__lista__conteudo__item__link {
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #2a7ae4;
+}
+
+/* CONTATO */
+
+.corpo__contato {
+    background-color: #eaf2fd;
+}
+
+.corpo__contato__container {
+    display: grid;
+    width: 85%;
+    margin: auto;
+    grid-template-areas: "logo nav contato";
+    padding: 4rem 0;
+}
+
+.corpo__contato__container__logo {
+    grid-area: logo;
+}
+
+.corpo__contato__container__nav {
+    grid-area: nav;
+}
+
+.corpo__contato__container__nav ul li {
+    margin-bottom: 24px;
+}
+
+.corpo__contato__container__nav ul li:last-child {
+    margin-bottom: 0;
+}
+
+.corpo__contato__container__nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+}
+
+.corpo__contato__container__form {
+    grid-area: contato;
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo__contato__container__form__titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+  
+.corpo__contato__container__form label:first-child {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 0.75rem 0.75rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 12px;
+    font-weight: 400;
+    color: #a2a2a2;
+    font-family: "Raleway";
+}
+
+.corpo__contato__container__form label input {
+    margin-top: 0.25rem;
+    border: none;
+}
+
+.corpo__contato__container__form label input:focus {
+    outline: none;
+}
+
+.corpo__contato__container__form__textarea {
+    width: 100%;
+    resize: none;
+    padding: 0.75rem 0.75rem;
+    height: 5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+.corpo__contato__container__form__textarea:focus {
+    outline: none;
+}
+
+.corpo__contato__container__form__button {
+    color: #fff;
+    padding: 16px;
+    background-color: #2a7ae4;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    font-family: "Raleway";
+}
+
+.footer {
+    background: #ffffff;
+    font-family: "raleway";
+    margin: auto;
+    text-align: center;
+    padding: 32px;
+}

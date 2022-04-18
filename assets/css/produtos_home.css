@@ -1,0 +1,55 @@
+.corpo__lista__topo__titulo--ajustes {
+    margin-bottom: 1rem;
+}
+
+.corpo__lista__topo--ajustes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.blue__button {
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    padding: 16px;
+    background-color: #2a7ae4;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.corpo__lista__conteudo__item--todos {
+    position: relative;
+}
+
+.corpo__lista__conteudo__item__botoes {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    height: 24px;
+    width: 25px;
+    background-color: transparent;
+    border: none;
+}
+
+.corpo__lista__conteudo__item__botoes object {
+    width: 18px;
+    height: 18px;
+}
+
+.corpo__lista__conteudo__item__botoes:nth-child(2) {
+    right: 35px;
+}
+
+.corpo__lista__conteudo__item--todos:nth-last-child(-n + 2) {
+    display: block;
+}
+
+
+  

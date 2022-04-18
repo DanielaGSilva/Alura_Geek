@@ -1,0 +1,45 @@
+.corpo__login {
+    background-color: #e5e5e5;
+    padding: 91px 0;
+}
+
+.corpo__login__titulo {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 21px;
+}
+
+.corpo__login__form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+.corpo__login__form__label__input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 18px 12px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+}
+
+.corpo__login__form__label__input:placeholder-shown {
+    color: #a2a2a2;
+}
+
+.corpo__login__form__btn {
+    background-color:#2a7ae4;
+    padding: 20.5px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}

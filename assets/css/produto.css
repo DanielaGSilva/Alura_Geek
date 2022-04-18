@@ -1,0 +1,49 @@
+.corpo--produto {
+    background-color: #e5e5e5;
+}
+
+.corpo__produto__container {
+    width: 85%;
+    padding-top: 4rem;
+    margin: auto;
+    display: grid;
+    gap: 0 1rem;
+    grid-template-areas: "imagem info";
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.corpo__produto__container__imagem {
+    grid-area: imagem;
+    width: 100%;
+    height: 30vw;
+    background: url(../../assets/img/star_wars/caneca_stormtrooper.png) center / contain no-repeat;
+}
+
+.corpo__produto__container__info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo__produto__container__info__titulo {
+    font-size: 52px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+
+.corpo__produto__container__info__preco {
+    margin: 0.5rem 0;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.corpo__produto__container__info__descricao {
+    color: #464646;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: justify;
+}
